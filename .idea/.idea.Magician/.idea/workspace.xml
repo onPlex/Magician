@@ -10,7 +10,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80554cc4-938d-498e-9389-313ca4687a69" name="변경" comment="" />
+    <list default="true" id="80554cc4-938d-498e-9389-313ca4687a69" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprint/BP_TPSPlayer.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Preset/IMC_Main.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Preset/InputAction/IA_LookUp.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Preset/InputAction/IA_Move.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Preset/InputAction/IA_Turn.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Magician/TPSPlayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Magician/TPSPlayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magician/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magician/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/BP_CharacterTest.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/BP_CharacterTest.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/BP_MagicianGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/BP_MagicianGameMode.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +33,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/Magician/GM_MainBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Magician/GM_MainBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Magician/TPSPlayer.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Magician/TPSPlayer.h" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2lE8oDU8z3HjdLdu7ZgI8B18dBJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,7 +52,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "C++ 프로젝트.Magician.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "PreClass",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -477,6 +490,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724734048470</updated>
       <workItem from="1724734050531" duration="2131000" />
+      <workItem from="1725355824712" duration="6126000" />
     </task>
     <servers />
   </component>
