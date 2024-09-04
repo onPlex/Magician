@@ -38,11 +38,13 @@ protected:
 	UInputAction* LookUpIA;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Input")
 	UInputAction* TurnIA;
-
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Input")
+	UInputAction* JumpIA;
 
 	void Move(const FInputActionValue& Value);
 	void LookUp(const FInputActionValue& Value);
 	void Turn(const FInputActionValue& Value);
+	void InputJump(const FInputActionValue& Value);
 
 public:
 	// Called every frame
@@ -55,6 +57,6 @@ private:
 	FVector MoveDirection;
 
 public:
-	UPROPERTY(EditAnywhere, Category="Move")
-	float MoveSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite ,Category="Control Option")
+	bool isInvertLookUp = false;
 };
